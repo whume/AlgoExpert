@@ -11,6 +11,7 @@
 #         stack.append({"node": node.right, "depth": depth + 1})
 #     return sumOfDepths
 
+# alternate solution 
 def nodeDepths(root, depth=0):
     if root is None:
         return 0
